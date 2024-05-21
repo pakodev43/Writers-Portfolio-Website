@@ -249,85 +249,8 @@ ul, ol{
 
 /*** MAIN ***/
 
-.logos_section{
-    margin-inline: calc(4.125rem - 1.875rem);
-    padding-block: 3.75rem;
-    border-block: 2px solid rgba(0, 0, 0, 0.2);
-
-    @media (min-width: 900px) {
-        margin: 0;
-        padding: 3.75rem 0;
-    }
-}
-
-.logos_desktop{
-    display: none;
-}
-
-@media (min-width: 900px) {
-    .logos_mobile{
-        display: none;
-    }
-
-    .logos_desktop{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-}
-
-.logos_mobile{
-    text-align: center;
-}
-
-.stripe-1, .stripe-2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.stripe-2{
-    margin-block: 3.75rem;
-}
-
-
-/* Skills Section */
-
-.skills_section{
-    padding-block: 8rem 5.5rem;
-    padding-inline: calc(3.875rem - 1.875rem);
-    text-align: center;
-
-    @media (min-width: 900px) {
-        display: flex;
-        justify-content: space-between;
-        padding-block: 9rem;
-        padding-inline: 0;
-    }
-}
-
-.skill_2{
-    margin-block: 7.813rem;
-
-    @media (min-width: 900px) {
-        margin: 0;
-    }
-}
-
-.skills_heading{
-    margin-block: 3.5rem 1.188rem;
-    font-size: var(--fs-h3);
-    font-weight: 600;
-}
-
-.skills_description{
-    @media (min-width: 900px) {
-        padding-inline: 1.3rem;
-    }
-}
-
-
 /* Latext Work Section */
+
 .latest_work_section{
     margin-block: 2.5rem;
 }
@@ -383,6 +306,7 @@ ul, ol{
 
 
 /* Clients Section */
+
 .clients_sction{
     margin-block: 10rem 8rem;
 
@@ -439,6 +363,7 @@ ul, ol{
 
 
 /*** FOOTER ***/
+
 .footer{
     margin-inline: 1.875rem;
     padding-block: 4.375rem;
@@ -478,6 +403,7 @@ ul, ol{
 
 
 /* Contact Form */
+
 .input_name, .input_email, .input_message{
     min-width: 100%;
     padding: 1.313rem 1.875rem;
