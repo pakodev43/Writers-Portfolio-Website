@@ -1,0 +1,71 @@
+/***     Style Sheet for "About Page"     ***/
+
+.main{
+    padding-inline: 0;
+    
+    @media (min-width: 900px) {
+        padding-inline: 0;
+    }
+}
+
+.main_about_section{
+    padding-block: 7.5rem;
+    padding-inline: 1.875rem;
+    background-color: rgba(249, 230, 240, 1);
+    
+    @media (min-width: 900px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4.375rem;
+    }
+}
+
+.profile_info{
+    margin-bottom: 4.875rem;
+
+    @media (min-width: 900px) {
+        margin-bottom: 0;
+    }
+}
+
+.dp{
+    border: 2px solid var(--clr-black);
+}
+
+.name{
+    margin-block: 1.25rem .3rem;
+    font-weight: 500;
+}
+
+.bio_heading{
+    line-height: 1.6875;
+    font-weight: 500;
+}
+
+.bio{
+    max-width: 45ch;
+}
+
+
+/* Second About Section */
+.second_about_section{
+    padding: 7.5rem 1.875rem;
+
+    @media (min-width: 900px) {
+        padding-inline: 10rem;
+    }
+}
+
+.about_text_first{
+    margin-bottom: 3.75rem;
+    font-size: var(--fs-600);
+    font-weight: 500;
+}
+
+.about_text_colored{
+    padding-block: 0.313rem;
+    font-weight: 600;
+    color: rgba(246, 220, 233, 1);
+    background-color: rgba(0, 147, 121, 1);
+}
