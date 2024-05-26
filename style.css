@@ -25,6 +25,7 @@
     --fs-500: 1.25rem;
     --fs-normal: 1.063rem;    /* normal */
     --fs-300: 1rem;
+    --fs-200: 0.75rem;
 
 
     /* fonts */
@@ -346,9 +347,10 @@ ul, ol{
 
 .clients_card_text{
     margin-bottom: 5rem;
-    font-size: var(--fs-500);
+    font-size: var(--fs-normal);
     font-weight: 600;
-    line-height: 1.875;
+    /* line-height: 1.875; */
+    line-height: 1.7;
 }
 
 .clients_info{
@@ -356,8 +358,14 @@ ul, ol{
     gap: 1.25rem;
 }
 
+.clients_name, .clients_role{
+    font-size: var(--fs-300);
+    font-size: var(--fs-200);
+}
+
 .clients_rating_div{
-    margin-bottom: 0.625rem;
+    /* margin-bottom: 0.625rem; */
+    margin-bottom: 0.4rem;
 }
 
 
